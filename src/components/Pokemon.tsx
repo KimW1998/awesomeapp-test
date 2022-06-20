@@ -3,6 +3,7 @@ type Pokemons = {
   img: string;
   weight: number;
   type: string;
+  Terrifying: boolean;
 };
 
 const Pokemon = (Pokemons: Pokemons) => {
@@ -12,6 +13,9 @@ const Pokemon = (Pokemons: Pokemons) => {
       <img className="img-pokemon" src={Pokemons.img} alt="" />
       <p>Weight: {Pokemons.weight} KG</p>
       <p>Type: {Pokemons.type}</p>
+      <p className="terrifying">
+        {Pokemons.Terrifying ? "Very Dangerous" : "Extremely lovable"}
+      </p>
       <button className="pokemon-button">Pick Me!</button>
     </div>
   );

@@ -3,7 +3,7 @@ type Props = {
 };
 
 const Title = (props: Props) => {
-  return <h1>{props.content}</h1>;
+  return <h1 className="title">{props.content}</h1>;
 };
 
 export default Title;
