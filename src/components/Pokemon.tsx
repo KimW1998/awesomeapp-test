@@ -2,7 +2,7 @@ type Pokemons = {
   name: string;
   img: string;
   weight: number;
-  power: string;
+  type: string;
 };
 
 const Pokemon = (Pokemons: Pokemons) => {
@@ -11,7 +11,8 @@ const Pokemon = (Pokemons: Pokemons) => {
       <h1>{Pokemons.name}</h1>
       <img className="img-pokemon" src={Pokemons.img} alt="" />
       <p>Weight: {Pokemons.weight} KG</p>
-      <p>Power: {Pokemons.power}</p>
+      <p>Type: {Pokemons.type}</p>
+      <button className="pokemon-button">Pick Me!</button>
     </div>
   );
 };

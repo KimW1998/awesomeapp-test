@@ -6,12 +6,18 @@ function App() {
   return (
     <div className="App">
       <p>
-        <Title content="test!" />
+        <Title content="Pokedex" />
         <Pokemon
           name="Charizard"
           img="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f3.png"
           weight={60}
-          power="Fire"
+          type="Fire"
+        />
+        <Pokemon
+          name="Eevee"
+          img="https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png"
+          weight={20}
+          type="Normal"
         />
       </p>
     </div>
