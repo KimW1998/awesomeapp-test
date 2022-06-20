@@ -1,15 +1,13 @@
-import React from 'react';
-
-import './App.css';
+import React from "react";
+import "./App.css";
+import Title from "./components/Title";
 
 function App() {
   return (
     <div className="App">
-      
-        <p>
-          <h1>Hello</h1>
-        </p>
-        
+      <p>
+        <Title content="test!" />
+      </p>
     </div>
   );
 }
