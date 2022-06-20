@@ -8,6 +8,13 @@
   }
 }
 
+.container-pokemon {
+  border: solid 2px blue;
+}
+
+.img-pokemon {
+  width: 200px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
