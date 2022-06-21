@@ -39,19 +39,21 @@ function App() {
     <div className="App">
       <p>
         <Title content="Pokedex" />
-        {PokemonList.map((pokemon) => {
-          return (
-            <div>
-              <Pokemon
-                name={pokemon.name}
-                img={pokemon.img}
-                weight={pokemon.weight}
-                type={pokemon.type}
-                Terrifying={pokemon.Terrifying}
-              />
-            </div>
-          );
-        })}
+        <div className="container-all-pokemons">
+          {PokemonList.map((pokemon) => {
+            return (
+              <div className="container-cards-pokemons">
+                <Pokemon
+                  name={pokemon.name}
+                  img={pokemon.img}
+                  weight={pokemon.weight}
+                  type={pokemon.type}
+                  Terrifying={pokemon.Terrifying}
+                />
+              </div>
+            );
+          })}
+        </div>
       </p>
       <ArticleList />
     </div>

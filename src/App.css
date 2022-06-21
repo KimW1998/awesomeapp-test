@@ -8,13 +8,26 @@
   }
 }
 
+.container-all-pokemons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-cards-pokemons {
+  /*flex: 35%;*/
+}
+
 .title {
-  color: red;
+  color: rgb(131, 10, 125);
   font-size: 80px;
 }
 .container-pokemon {
   margin: 10px 0px;
-  border: solid 2px blue;
+  border: solid 2px purple;
+  background-color: pink;
+  width: 300px;
+  margin: 20px;
 }
 
 .img-pokemon {
@@ -24,6 +37,7 @@
 .pokemon-button {
   margin-bottom: 10px;
   color: red;
+  background-color: rgba(147, 226, 218, 0.877);
 }
 
 .terrifying {
