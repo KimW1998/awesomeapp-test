@@ -7,19 +7,34 @@ function App() {
   const PokemonList = [
     {
       name: "Charizard",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f3.png",
-      weight: "60",
+      weight: "90",
       type: "Fire",
       Terrifying: true,
+      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f3.png",
     },
     {
-      name: "Eevee",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
-      weight: "20",
-      type: "Normal",
+      name: "Bulbasaur",
+      weight: "6.9",
+      type: "Fire",
       Terrifying: false,
+      img: "https://www.pokemonunited.nl/img/dex/home/bulbasaur.png",
+    },
+    {
+      name: "Mewtwo",
+      weight: "122",
+      type: "Gost",
+      Terrifying: false,
+      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+    },
+    {
+      name: "Mega beedrill",
+      weight: "65",
+      type: "Earth",
+      Terrifying: true,
+      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015_f2.png",
     },
   ];
+
   return (
     <div className="App">
       <p>
