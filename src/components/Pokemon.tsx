@@ -3,7 +3,7 @@ import PickMe from "./PickMe";
 type PokemonsProps = {
   name: string;
   img: string;
-  weight: number;
+  weight: string;
   type: string;
   Terrifying: boolean;
 };

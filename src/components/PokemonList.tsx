@@ -1,5 +1,5 @@
-const Pokemons = () => {
-  const PokemonList = [
+const Pokemonss = () => {
+  const PokemonList2 = [
     {
       name: "Charizard",
       img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006_f3.png",
@@ -16,7 +16,8 @@ const Pokemons = () => {
     },
   ];
 
-  return { ...PokemonList };
+  return;
+  <div></div>;
 };
 
-export default Pokemons;
+export default Pokemonss;
