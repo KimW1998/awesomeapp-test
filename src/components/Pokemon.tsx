@@ -1,3 +1,6 @@
+import { count } from "console";
+import PickMe from "./PickMe";
+
 type Pokemons = {
   name: string;
   img: string;
@@ -16,7 +19,7 @@ const Pokemon = (Pokemons: Pokemons) => {
       <p className="terrifying">
         {Pokemons.Terrifying ? "Very Dangerous" : "Extremely lovable"}
       </p>
-      <button className="pokemon-button">Pick Me!</button>
+      <PickMe />
     </div>
   );
 };
