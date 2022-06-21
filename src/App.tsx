@@ -1,7 +1,7 @@
 import "./App.css";
 import Title from "./components/Title";
 import Pokemon from "./components/Pokemon";
-
+import Test from "./components/test";
 function App() {
   return (
     <div className="App">
@@ -22,6 +22,8 @@ function App() {
           Terrifying={false}
         />
       </p>
+
+      <Test />
     </div>
   );
 }
