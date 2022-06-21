@@ -1,6 +1,7 @@
 import "./App.css";
 import Title from "./components/Title";
 import Pokemon from "./components/Pokemon";
+import ArticleList from "./components/ArticleList";
 
 function App() {
   const PokemonList = [
@@ -37,6 +38,7 @@ function App() {
           );
         })}
       </p>
+      <ArticleList />
     </div>
   );
 }
