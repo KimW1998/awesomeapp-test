@@ -43,7 +43,7 @@ export default function ArticleList() {
       <p>Here's a lovely list of articles, for your reading pleasure:</p>
       {articles ? (
         articles.map((article) => {
-          return <ArticleCard key={article.id} article={article} />;
+          return <ArticleCard article={article} />;
         })
       ) : (
         <p>Loading articles...</p>
