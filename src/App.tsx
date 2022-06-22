@@ -55,6 +55,7 @@ function App() {
           })}
         </div>
       </p>
+      <hr />
       <ArticleList />
     </div>
   );
