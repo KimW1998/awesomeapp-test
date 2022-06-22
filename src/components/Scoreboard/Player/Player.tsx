@@ -7,9 +7,13 @@ type Props = {
 const Player = (Props: Props) => {
   return (
     <li className="Player">
-      <p>
-        {Props.name} (Score: {Props.score} {""})
-        <button className="increment-button" onClick={Props.incrementScore}>
+      <p className="font-monospace">
+        {Props.name} (Score: {Props.score})
+        <button
+          type="button"
+          className="increment-button btn btn-dark"
+          onClick={Props.incrementScore}
+        >
           increment
         </button>
       </p>

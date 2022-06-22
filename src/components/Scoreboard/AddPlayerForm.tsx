@@ -20,6 +20,8 @@ const AddPlayerForm = (Props: Props) => {
           }}
         />{" "}
         <button
+          type="button"
+          className="btn btn-dark"
           onClick={() => {
             Props.addPlayer(name);
             setName("");

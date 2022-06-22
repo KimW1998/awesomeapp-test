@@ -78,9 +78,11 @@ const Scoreboard = () => {
           <option value="name">Sort by name</option>
         </select>
       </p>
-      <button onClick={reset}>Reset</button>
+      <button type="button" className="btn btn-dark" onClick={reset}>
+        Reset
+      </button>
       <div>
-        <p>Player's scores:</p>
+        <p className="fs-3">Player's scores:</p>
 
         {playersSorted.map((player) => {
           return (
