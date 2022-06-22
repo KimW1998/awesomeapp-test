@@ -59,6 +59,10 @@
   list-style: none;
 }
 
+.Player-container {
+  padding: 20px 0px;
+}
+
 .Scoreboard {
   background-color: pink;
   max-width: 400px;
@@ -66,8 +70,15 @@
   padding: 10px;
 }
 
+.progress-bar {
+  background-color: purple !important;
+}
+
 .increment-button {
   margin: 0px 20px;
+}
+
+.progress {
 }
 
 @keyframes App-logo-spin {
