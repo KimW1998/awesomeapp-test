@@ -2,6 +2,7 @@ import "./App.css";
 import Title from "./components/Title";
 import Pokemon from "./components/Pokemon";
 import ArticleList from "./components/ArticleList";
+import Scoreboard from "./components/Scoreboard/Scoreboard";
 
 function App() {
   const PokemonList = [
@@ -55,6 +56,10 @@ function App() {
           })}
         </div>
       </p>
+      <hr />
+      <div>
+        <Scoreboard />
+      </div>
       <hr />
       <ArticleList />
     </div>

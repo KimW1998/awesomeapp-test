@@ -55,6 +55,21 @@
   color: #61dafb;
 }
 
+.Player {
+  list-style: none;
+}
+
+.Scoreboard {
+  background-color: pink;
+  max-width: 400px;
+  border: solid 2px purple;
+  padding: 10px;
+}
+
+.increment-button {
+  margin: 0px 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
