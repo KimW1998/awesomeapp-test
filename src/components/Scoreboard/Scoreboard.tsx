@@ -21,10 +21,10 @@ const Scoreboard = () => {
   const [sortBy, setSortBy] = useState("score");
 
   const [players, setPlayers] = useState<PlayerObj[]>([
-    { id: 1, name: "Violeta", score: 11 },
-    { id: 2, name: "Eszter", score: 14 },
-    { id: 3, name: "Jeroen v2", score: 4 },
-    { id: 4, name: "Lisa", score: 42 },
+    { id: 1, name: "Charizard", score: 90 },
+    { id: 2, name: "Bulbasaur", score: 6.9 },
+    { id: 3, name: "Mewtwo", score: 99 },
+    { id: 4, name: "Mega beedrill", score: 65 },
   ]);
 
   const reset = () => {
@@ -82,7 +82,7 @@ const Scoreboard = () => {
         Reset
       </button>
       <div>
-        <p className="fs-3">Player's scores:</p>
+        <p className="fs-3">Pokemon's scores:</p>
 
         {playersSorted.map((player) => {
           return (
